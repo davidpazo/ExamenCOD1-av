@@ -2,9 +2,6 @@ package ExamenCOD;
 
 public class ExamenCOD {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         int numP = 11;
         if (metodoNuevo(numP)) {
@@ -18,7 +15,6 @@ public class ExamenCOD {
             }
         }
     }
-
     public static boolean metodoNuevo(int variable) {
         int j = 2;
         boolean aux = true;
