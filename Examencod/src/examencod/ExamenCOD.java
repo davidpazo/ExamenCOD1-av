@@ -1,12 +1,12 @@
 package ExamenCOD;
 
-import java.util.Scanner;
-
 public class ExamenCOD {
 
- 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-                int numP = 11;
+        int numP = 11;
         if (metodoNuevo(numP)) {
             System.out.println("Es numero primo");
         } else {
@@ -18,16 +18,15 @@ public class ExamenCOD {
             }
         }
     }
-    //Cambio de nombres de variables
-    
-    public static boolean metodoNuevo(int peritas) {
-        int y = 2;
+
+    public static boolean metodoNuevo(int variable) {
+        int j = 2;
         boolean aux = true;
-        while ((aux) && (y != peritas)) {
-            if (peritas % y == 0) {
+        while ((aux) && (j != variable)) {
+            if (variable % j == 0) {
                 aux = false;
             }
-            y++;
+            j++;
         }
         return aux;
     }
