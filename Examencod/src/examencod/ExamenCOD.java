@@ -6,20 +6,20 @@ public class ExamenCOD {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int iN = 11;
-        if (metodoMio(iN)) {
+        int numP = 11;
+        if (metodoNuevo(numP)) {
             System.out.println("Es numero primo");
         } else {
             System.out.println("NO es numero primo");
         }
         for (int x = 2; x < 1000; x++) {
-            if (metodoMio(x)) {
+            if (metodoNuevo(x)) {
                 System.out.print(x + " ");
             }
         }
     }
 
-    public static boolean metodoMio(int variable) {
+    public static boolean metodoNuevo(int variable) {
         int j = 2;
         boolean aux = true;
         while ((aux) && (j != variable)) {
